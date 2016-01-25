@@ -1,6 +1,6 @@
 # Corral
 
-Corral is an cross-platform desktop app using web technologies, using [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/)
+Corral is a cross-platform desktop app using web technologies, using [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/)
 
 ## Prerequisites
 
