@@ -1,6 +1,7 @@
 # Corral
+Corral aims to be a small and simple app to aid you in creating software development project estimates. You assign a complexity value to a task, and Corral will handle assigning the estimated time/iterations, as well as exporting the final estimate.
 
-Corral is a cross-platform desktop app using web technologies, [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/)
+Corral is a cross-platform desktop and web app developed using web technologies, [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/).
 
 ## Prerequisites
 
