@@ -5,7 +5,8 @@
  */
 
 // Core variables and mixins
-@import "variables";
+//@import "variables";
+@import "variables-over";
 @import "mixins";
 
 // Reset and dependencies
@@ -30,8 +31,8 @@
 @import "custom-forms";
 @import "nav";
 //@import "navbar";
-@import "bootstrap/navbar-over";
-@import "bootstrap/navbar-extra";
+@import "navbar-over";
+@import "navbar-extra";
 @import "card";
 @import "breadcrumb";
 @import "pagination";
