@@ -8,6 +8,10 @@
 // and a shame section for quick fixes and hacks.
 
 
+// - - global/settings
+// @font-face declarations, variables
+@import 'global/settings';
+
 // - - - - - - - - - - - - - - - - - - -
 // - - libs
 // add css frameworks and libraries here.
@@ -25,9 +29,6 @@
 // - - - - - - - - - - - - - - - - - - -
 // - - global
 
-// - - global/settings
-// @font-face declarations, variables
-@import 'global/settings';
 
 // - - global/utilities
 // extends, functions, and mixins
