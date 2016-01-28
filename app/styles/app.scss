@@ -8,6 +8,10 @@
 // and a shame section for quick fixes and hacks.
 
 
+// - - global/settings
+// @font-face declarations, variables
+@import 'global/settings';
+
 // - - - - - - - - - - - - - - - - - - -
 // - - libs
 // add css frameworks and libraries here.
@@ -15,18 +19,16 @@
 // if you want to change variable values.
 
 // - - variable overrides for sass libraries
-// @import 'libs/library-variable-overrides';
+@import 'libs/library-variable-overrides';
 
 // - - reset - normalize.css v3.0.2
-// @import 'libs/normalize';
+//@import 'libs/normalize';
 
+@import 'libs/bootstrap/bootstrap-custom';
 
 // - - - - - - - - - - - - - - - - - - -
 // - - global
 
-// - - global/settings
-// @font-face declarations, variables
-@import 'global/settings';
 
 // - - global/utilities
 // extends, functions, and mixins

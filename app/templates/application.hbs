@@ -1,3 +1,13 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div class="collapse" id="exCollapsingNavbar">
+  <div class="navbar-light bg-faded p-a-1">
+    <h4>Collapsed content</h4>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-primary navbar-fixed-left">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+    &#9776;
+    {{!-- <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> --}}
+  </button>
+</nav>
 {{outlet}}
