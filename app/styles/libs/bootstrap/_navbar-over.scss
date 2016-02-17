@@ -113,6 +113,7 @@
   @include border-radius($btn-border-radius);
 
   @include hover-focus {
+    outline: none;
     text-decoration: none;
   }
 }

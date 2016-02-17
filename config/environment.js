@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'corral',
+    modulePrefix: 'palantir',
     environment: environment,
     baseURL: '/',
     locationType: process.env.EMBER_CLI_ELECTRON ? 'hash' : 'auto',

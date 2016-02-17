@@ -1,7 +1,7 @@
-# Corral
-Corral aims to be a small and simple app to aid you in creating software development project estimates. You assign a complexity value to a task, and Corral will handle assigning the estimated time/iterations, as well as exporting the final estimate.
+# Palantir
+Palantir aims to be a small and simple app to aid you in creating software development project estimates. You assign a complexity value to a task, and Palantir will handle assigning the estimated time/iterations, as well as exporting the final estimate.
 
-Corral is a cross-platform desktop and web app developed using web technologies, [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/).
+Palantir is a cross-platform desktop and web app developed using web technologies, [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/).
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 {
-  "name": "corral",
+  "name": "palantir",
   "version": "0.0.0",
-  "description": "Small description for corral goes here",
+  "description": "Small description for palantir goes here",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -47,7 +47,7 @@
   "main": "electron.js",
   "ember-electron": {
     "WHAT IS THIS?": "Please see the README.md",
-    "name": "Corral",
+    "name": "Palantir",
     "platform": null,
     "arch": null,
     "version": null,
