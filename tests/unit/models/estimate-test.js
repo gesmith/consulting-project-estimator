@@ -23,7 +23,7 @@ test('should own a project', function(assert) {
 test('should have many features', function(assert) {
   const Estimate = this.store().modelFor('estimate');
   const relationship = Ember.get(Estimate, 'relationshipsByName').get('features');
-//debugger;
+
   assert.equal(relationship.key, 'features', 'has relationship with feature');
   assert.equal(relationship.kind, 'hasMany', 'kind of relationship is hasMany');
 });
