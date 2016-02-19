@@ -10,5 +10,9 @@ $brand-colors: (
   aqua: #2AA198,
   light_teal: #0C3543,
   dark_teal: #042B37,
-  dark_blue: #333541
+  dark_blue: #333541,
+  default_text_color: #fafafa,
+  navbar_icon_color: #fafafa
 );
+
+$navbar-width: 65px;

@@ -11,6 +11,9 @@
   @include media-breakpoint-up(sm) {
     @include border-radius($navbar-border-radius);
   }
+  a {
+    color: map-get($brand-colors, navbar_icon_color);
+  }
 }
 
 
