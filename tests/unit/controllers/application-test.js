@@ -5,8 +5,7 @@ moduleFor('controller:application', 'Unit | Controller | application', {
   // needs: ['controller:foo']
 });
 
-// Replace this with your real tests.
-test('it exists', function(assert) {
-  let controller = this.subject();
-  assert.ok(controller);
+test('application shows the navbar by default', function(assert) {
+  const controller = this.subject();
+  assert.equal(controller.get('showNavBar'), true, 'navBar is shown by default');
 });
