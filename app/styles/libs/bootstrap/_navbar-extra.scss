@@ -1,5 +1,5 @@
 .navbar-fixed-left {
-  //width: 60px;
+  width: $navbar-width;
   position: fixed;
   border-radius: 0;
   height: 100%;
@@ -7,15 +7,11 @@
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */
-  width: 59px;
-}
-
-.navbar-fixed-left + .container {
-  padding-left: 80px;
+  width: $navbar-width - 1;
 }
 
 /* On using dropdown menu (To right shift popuped) */
 .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
   margin-top: -50px;
-  margin-left: 60px;
+  margin-left: $navbar-width;
 }
