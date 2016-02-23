@@ -17,10 +17,9 @@
   overflow: scroll !important;
 }
 .nav-pane-listing-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 18px 20px;
-  align-items: center;
+  // display: flex;
+  // flex-wrap: wrap;
+  padding: 15px 15px;
   border-bottom: 1px solid darken(map-get($brand-colors, aqua), 10%);
   background-color: lighten(map-get($brand-colors, light_teal), 2%);
   &:nth-child(2n+1){

@@ -79,7 +79,7 @@ $border-width:               1px !default;
 //
 // Settings for the `<body>` element.
 
-$body-bg:                    map-get($brand-colors, dark_teal) !default; //#fff !default;
+$body-bg:                    #efefef !default; //map-get($brand-colors, dark_teal) !default; //#fff !default;
 $body-color:                 map-get($brand-colors, default_text_color) !default;
 
 
@@ -129,7 +129,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:               12 !default;
-$grid-gutter-width:          1.875rem !default; // 30px
+$grid-gutter-width:          0 !default;//1.875rem !default; // 30px
 
 
 // Typography

@@ -11,6 +11,9 @@ module.exports = function(defaults) {
             'app': '/assets/palantir-frontend.css'
           }
         }
+    },
+    emberCliFontAwesome: {
+      useScss: true
     }
   });
 
