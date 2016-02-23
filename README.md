@@ -1,7 +1,7 @@
-# Corral
+# Palantir
+Palantir aims to be a small and simple app to aid you in creating software development project estimates. You assign a complexity value to a task, and Palantir will handle assigning the estimated time/iterations, as well as exporting the final estimate.
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Palantir is a cross-platform desktop and web app developed using web technologies, [Ember](http://emberjs.com/) and [Electron](http://electron.atom.io/).
 
 ## Prerequisites
 
@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Electron](http://electron.atom.io/)
 
 ## Installation
 
@@ -20,7 +21,12 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Running / Development (Desktop mode)
+
+* `ember electron`
+* After building, the Electron desktop app should open automatically.
+
+## Running / Development (Web)
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
@@ -47,7 +53,9 @@ Specify what it takes to deploy your app.
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
+* [Electron](http://electron.atom.io/)
+* [ember-electron](https://github.com/felixrieseberg/ember-electron)
+* [ember-cli-mirage](https://github.com/samselikoff/ember-cli-mirage)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

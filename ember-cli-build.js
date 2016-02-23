@@ -8,9 +8,12 @@ module.exports = function(defaults) {
     outputPaths: {
         app: {
           css: {
-            'app': '/assets/corral-frontend.css'
+            'app': '/assets/palantir-frontend.css'
           }
         }
+    },
+    emberCliFontAwesome: {
+      useScss: true
     }
   });
 

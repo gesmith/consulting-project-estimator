@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - nav-pane module
+// styles for the nav-pane module
+
+.nav-pane-left {
+  width: $nav-pane-width;
+  background-color: map-get($brand-colors, light_teal);
+  border-radius: 0;
+  height: 100%;
+}
+.nav-pane-header {
+  padding: 15px 15px 15px 15px;
+  font-size: 22px;
+  color: #fafafa;
+}
+.nav-pane-listing {
+  overflow: scroll !important;
+}
+.nav-pane-listing-row {
+  // display: flex;
+  // flex-wrap: wrap;
+  padding: 15px 15px;
+  border-bottom: 1px solid darken(map-get($brand-colors, aqua), 10%);
+  background-color: lighten(map-get($brand-colors, light_teal), 2%);
+  &:nth-child(2n+1){
+    background-color: lighten(map-get($brand-colors, light_teal), 5%);;
+  }
+}
+
+.nav-pane-listing-title {
+
+}

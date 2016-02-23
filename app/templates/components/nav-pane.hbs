@@ -1,0 +1,17 @@
+<div class="nav-pane-left l-full-height">
+  <div class="nav-pane-header row">
+    <div class="col-md-10">
+      {{fa-icon "book"}} {{headerTitle}}
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn btn-primary btn-sm" {{action "addAction"}}>{{fa-icon "plus"}}</button>
+    </div>
+  </div>
+  <div class="nav-pane-listing">
+    {{#each list as |item|}}
+      {{project-list-item item=item}}
+    {{/each}}
+  </div>
+
+{{yield}}
+</div>

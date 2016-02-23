@@ -1,0 +1,18 @@
+.navbar-fixed-left {
+  width: $navbar-width;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  background-color: map-get($brand_colors, aqua);
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: $navbar-width - 1;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: $navbar-width;
+}

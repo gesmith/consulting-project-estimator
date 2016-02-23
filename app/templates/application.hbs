@@ -1,3 +1,6 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+{{#if showNavBar}}
+  {{nav-bar}}
+{{/if}}
+<div class="l-main l-full-height container">
+  {{outlet}}
+</div>

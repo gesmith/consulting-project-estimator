@@ -1,3 +1,16 @@
 // - - - - - - - - - - - - - - - - - - -
 // - - layout
 // global layout classes - height, width, padding, margin, etc.
+
+.l-main {
+  margin-left: $navbar-width;
+  padding-right: 10px;
+}
+
+.l-full-height {
+  min-height: 100vh;
+}
+
+.l-80-height {
+  min-height: 80vh;
+}
