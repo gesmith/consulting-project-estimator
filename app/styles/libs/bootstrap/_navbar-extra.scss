@@ -3,6 +3,7 @@
   position: fixed;
   border-radius: 0;
   height: 100%;
+  background-color: map-get($brand_colors, aqua);
 }
 
 .navbar-fixed-left .navbar-nav > li {
