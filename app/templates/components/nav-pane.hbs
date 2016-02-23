@@ -1,0 +1,16 @@
+<div class="nav-pane-left l-full-height">
+  <div class="nav-pane-header">
+    {{headerTitle}}
+  </div>
+  <div class="nav-pane-listing">
+  {{#each list as |item|}}
+    <div class="nav-pane-listing-row">
+      <span class="nav-pane-listing-title">
+        {{item.name}}
+      </span>
+    </div>
+  {{/each}}
+  </div>
+
+{{yield}}
+</div>
