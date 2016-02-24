@@ -27,6 +27,10 @@
   }
 }
 
+.nav-pane-listing-row:hover {
+  background-color: map-get($brand-colors, aqua);//lighten(map-get($brand-colors, light_teal), 10%);
+}
+
 .nav-pane-listing-title {
 
 }
