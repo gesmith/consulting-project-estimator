@@ -1,8 +1,8 @@
 <nav class="navbar navbar-fixed-left">
+  {{#link-to 'index'}}
+    <div class="nav-icon">{{fa-icon "home" size="lg"}}</div>
+  {{/link-to}}
   {{#link-to 'projects'}}
-  <button class="navbar-toggler" type="button">
-    {{fa-icon "list" size=1}}
-    {{!-- <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> --}}
-  </button>
+    <div class="nav-icon">{{fa-icon "list" size="lg"}}</div>
   {{/link-to}}
 </nav>
