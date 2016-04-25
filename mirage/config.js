@@ -25,4 +25,5 @@ export default function() {
 
   //this.get('/estimates');
   this.get('/projects');
+  this.post('/projects');
 }
