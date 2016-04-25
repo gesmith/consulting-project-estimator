@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.store.createRecord('project', {name: this.get('name')});
+    return this.store.createRecord('project', { name });
   },
   actions: {
     submit(model) {
