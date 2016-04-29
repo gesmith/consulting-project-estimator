@@ -7,6 +7,7 @@
   background-color: map-get($brand-colors, light_teal);
   border-radius: 0;
   height: 100%;
+  float: left;
 }
 .nav-pane-header {
   padding: 15px 15px 15px 15px;
@@ -14,7 +15,6 @@
   color: #fafafa;
 }
 .nav-pane-listing {
-  overflow: scroll !important;
   color: #fafafa;
 }
 .nav-pane-listing-row {
@@ -26,12 +26,11 @@
   &:nth-child(2n+1){
     background-color: lighten(map-get($brand-colors, light_teal), 5%);;
   }
-}
-
-.nav-pane-listing-row:hover {
-  background-color: map-get($brand-colors, aqua);//lighten(map-get($brand-colors, light_teal), 10%);
+  &:hover {
+    background-color: map-get($brand-colors, aqua);//lighten(map-get($brand-colors, light_teal), 10%);
+  }
 }
 
 .nav-pane-listing-title {
-
+  font-size: 16px;
 }

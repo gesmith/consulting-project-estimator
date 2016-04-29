@@ -1,3 +1,8 @@
-{{#nav-pane headerTitle="Projects" list=model}}
+{{#nav-pane headerTitle="Projects" addLink="projects.new"}}
+  {{#each model as |item|}}
+    {{project-list-item item=item}}
+  {{/each}}
 {{/nav-pane}}
-{{outlet}}
+<div class="l-page-content">
+  {{outlet}}
+</div>
