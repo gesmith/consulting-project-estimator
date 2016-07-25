@@ -6,7 +6,10 @@ var app = electron.app;
 var mainWindow = null;
 var BrowserWindow = electron.BrowserWindow;
 
-electron.crashReporter.start();
+electron.crashReporter.start({
+  "companyName": "Garry Smith",
+  "submitURL": "http://google.com"
+});
 
 app.on('window-all-closed', function onWindowAllClosed() {
     if (process.platform !== 'darwin') {
