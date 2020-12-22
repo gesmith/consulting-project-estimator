@@ -16,3 +16,11 @@
   margin-top: -50px;
   margin-left: $navbar-width;
 }
+
+.navbar .nav-icon {
+  margin-bottom: 15px;
+  text-align: center;
+  &:nth-child(1) {
+    margin-top: 10px;
+  }
+}
